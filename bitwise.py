@@ -26,5 +26,11 @@ bitwise_or = cv.bitwise_or(rectangle,circle)
 bitwise_xor = cv.bitwise_xor(rectangle,circle)
 
 
+#bitwise NOT
+
+bitwise_not = cv.bitwise_not(circle)
+#return the inverse of the shape
+
+
 
 cv.waitKey(0)
